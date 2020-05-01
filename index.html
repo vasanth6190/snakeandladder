@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<title>Snake and ladder</title>
+	<link type="text/css" href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container  d-flex box justify-content-center"> 
+		<div class="first col-sm-7">
+			<p class="display-4 text-center">Welcome to<br><strong><em>Snake</em></strong> and <strong>Ladder</strong> Game</p>
+			<div class="d-flex justify-content-center start">
+				<button class="text-center btn btn-outline-warning btn-lg startgame">START GAME</button>
+			</div>
+
+		</div>
+	</div>
+	<div class="main">
+		<button class="btn btn-outline-warning font-weight-bold roll">CLICK TO ROLL</button>
+		<br>
+		<img class="dice mt-3" src="dice-1.png">
+		<br>
+		<div class="displayplayers my-3">
+			<span class="mr-3  d-inline displayplayer1">PLAYER 1 <div class="playerss d-inline-block bg-danger "></div></span><br>
+       <span class="mr-3  d-inline displayplayer2">PLAYER 2 <div class="playerss d-inline-block bg-primary "></div></span><br>
+       <span class="mr-3  d-inline displayplayer3">PLAYER 3 <div class="playerss d-inline-block bg-success "></div></span><br>
+       <span class="mr-3  d-inline displayplayer4">PLAYER 4 <div class="playerss d-inline-block pinkcolor"></div></span>
+		</div>
+		 
+	</div>
+	<div class="main-table">
+       <table>
+          <tr>
+            <td class="_100 bg-warning" style="width:10%;"><span>100</span></td>
+            <td class="_99">99</td>
+            <td class="_98 bg-warning">98</td>
+            <td class="_97">97</td>
+            <td class="_96 bg-warning">96</td>
+            <td class="_95">95</td>
+            <td class="_94 bg-warning">94</td>
+            <td class="_93">93</td>
+            <td class="_92 bg-warning">92</td>
+            <td class="_91">91</td>
+          </tr>
+
+           <tr>
+            <td class="_81">81</td>
+            <td class="_82 bg-warning">82</td>
+            <td class="_83">83</td>
+            <td class="_84 bg-warning">84</td>
+            <td class="_85">85</td>
+            <td class="_86 bg-warning">86</td>
+            <td class="_87">87</td>
+            <td class="_88 bg-warning">88</td>
+            <td class="_89">89</td>
+            <td class="_90 bg-warning">90</td>
+          </tr>
+
+           <tr>
+            <td class="_80 bg-warning">80</td>
+            <td class="_79">79</td>
+            <td class="_78 bg-warning">78</td>
+            <td class="_77">77</td>
+            <td class="_76 bg-warning">76</td>
+            <td class="_75">75</td>
+            <td class="_74 bg-warning">74</td>
+            <td class="_73">73</td>
+            <td class="_72 bg-warning">72</td>
+            <td class="_71">71</td>
+          </tr>
+
+           <tr>
+            <td class="_61">61</td>
+            <td class="_62 bg-warning">62</td>
+            <td class="_63">63</td>
+            <td class="_64 bg-warning">64</td>
+            <td class="_65">65</td>
+            <td class="_66 bg-warning">66</td>
+            <td class="_67">67</td>
+            <td class="_68 bg-warning">68</td>
+            <td class="_69">69</td>
+            <td class="_70 bg-warning">70</td>
+          </tr>
+
+           <tr>
+            <td class="_60 bg-warning">60</td>
+            <td class="_59">59</td>
+            <td class="_58 bg-warning">58</td>
+            <td class="_57">57</td>
+            <td class="_56 bg-warning">56</td>
+            <td class="_55">55</td>
+            <td class="_54 bg-warning">54</td>
+            <td class="_53">53</td>
+            <td class="_52 bg-warning">52</td>
+            <td class="_51">51</td>
+          </tr>
+
+           <tr>
+            <td class="_41">41</td>
+            <td class="_42 bg-warning">42</td>
+            <td class="_43">43</td>
+            <td class="_44 bg-warning">44</td>
+            <td class="_45">45</td>
+            <td class="_46 bg-warning">46</td>
+            <td class="_47">47</td>
+            <td class="_48 bg-warning">48</td>
+            <td class="_49">49</td>
+            <td class="_50 bg-warning">50</td>
+          </tr>
+
+           <tr>
+            <td class="_40 bg-warning">40</td>
+            <td class="_39">39</td>
+            <td class="_38 bg-warning">38</td>
+            <td class="_37">37</td>
+            <td class="_36 bg-warning">36</td>
+            <td class="_35">35</td>
+            <td class="_34 bg-warning">34</td>
+            <td class="_33">33</td>
+            <td class="_32 bg-warning">32</td>
+            <td class="_31">31</td>
+          </tr>
+
+           <tr>
+            <td class="_21">21</td>
+            <td class="_22 bg-warning">22</td>
+            <td class="_23">23</td>
+            <td class="_24 bg-warning">24</td>
+            <td class="_25">25</td>
+            <td class="_26 bg-warning">26</td>
+            <td class="_27">27</td>
+            <td class="_28 bg-warning">28</td>
+            <td class="_29">29</td>
+            <td class="_30 bg-warning">30</td>
+          </tr>
+
+           <tr>
+            <td class="_20 bg-warning">20</td>
+            <td class="_19">19</td>
+            <td class="_18 bg-warning">18</td>
+            <td class="_17">17</td>
+            <td class="_16 bg-warning">16</td>
+            <td class="_15">15</td>
+            <td class="_14 bg-warning">14</td>
+            <td class="_13">13</td>
+            <td class="_12 bg-warning">12</td>
+            <td class="_11">11</td>
+          </tr>
+
+           <tr>
+            <td class="_1">1</td>
+            <td class="_2 bg-warning">2</td>
+            <td class="_3">3</td>
+            <td class="_4 bg-warning">4</td>
+            <td class="_5">5</td>
+            <td class="_6 bg-warning">6</td>
+            <td class="_7">7</td>
+            <td class="_8 bg-warning">8</td>
+            <td class="_9">9</td>
+            <td class="_10 bg-warning">10</td>
+          </tr>
+		</table>
+	</div>
+	<div class="imagesin">
+     <img class="ladder1" src="ladder1.png">
+	<img class="ladder2" src="ladder1.png">
+	<img class="snake1" src="animal.png">
+	<img class="snake2" src="animal2.png">
+	<img class="snake3" src="animal3.png">
+	<img class="snake4" src="animal4.png">
+	<img class="ladder3" src="ladder1.png">
+	<img class="ladder4" src="ladder3.png">
+	<img class="longlad" src="ladder3.png">
+	<img class="ladder5" src="ladder3.png">
+	<img class="longg" src="longsnake.png">
+	<img class="animal5" src="animal5.png">
+	</div>
+	<div class="dots">
+       <div class="playerss bg-danger p1 player1"></div>
+       <div class="playerss bg-primary p2  player2"></div>
+       <div class="playerss bg-success p3 player3"></div>
+       <div class="playerss pinkcolor p4 player4"></div>
+	</div>
+	<div  lcass="container row">
+		<div class="result col-sm-10">
+			<i class="fa fa-times mt-2 float-right" aria-hidden="true"></i>
+		<p class="display-4 mt-3 text-bold text-center"><span class="winner"></span>Won the Game</p>
+	</div>
+	</div>
+	<audio class="rattlesnake">
+		 <source src="rattlesnake.mp3" type="audio/mpeg">
+	</audio>
+    <audio class="laddersound">
+		 <source src="laddermusic.wav" type="audio/wav">
+	</audio>
+	 <audio class="horse">
+		 <source src="horse.wav" type="audio/wav">
+	</audio>
+	<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
