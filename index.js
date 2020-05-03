@@ -64,28 +64,28 @@ $(".roll").click(()=>{
 		}
 	}
 	if(currentplayer===".player1"){
-			$(".displayplayer1").css("color","red")
-			$(".displayplayer2").css("color","white")
-			$(".displayplayer3").css("color","white")
-			$(".displayplayer4").css("color","white")
+			$(".displayplayer1").addClass("redround")
+			$(".displayplayer2").removeClass("blueround")
+			$(".displayplayer3").removeClass("greenround")
+			$(".displayplayer4").removeClass("pinkround")
 		}
 		if(currentplayer===".player2"){
-			$(".displayplayer1").css("color","white")
-			$(".displayplayer2").css("color","#007bff")
-			$(".displayplayer3").css("color","white")
-			$(".displayplayer4").css("color","white")
+			$(".displayplayer1").removeClass("redround")
+			$(".displayplayer2").addClass("blueround")
+			$(".displayplayer3").removeClass("greenround")
+			$(".displayplayer4").removeClass("pinkround")
 		}
 		if(currentplayer===".player3"){
-			$(".displayplayer1").css("color","white")
-			$(".displayplayer2").css("color","white")
-			$(".displayplayer3").css("color","#28a745")
-			$(".displayplayer4").css("color","white")
+			$(".displayplayer1").removeClass("redround")
+			$(".displayplayer2").removeClass("blueround")
+			$(".displayplayer3").addClass("greenround")
+			$(".displayplayer4").removeClass("pinkround")
 		}
 		if(currentplayer===".player4"){
-			$(".displayplayer1").css("color","white")
-			$(".displayplayer2").css("color","white")
-			$(".displayplayer3").css("color","white")
-			$(".displayplayer4").css("color","#ff03bd")
+			$(".displayplayer1").removeClass("redround")
+			$(".displayplayer2").removeClass("blueround")
+			$(".displayplayer3").removeClass("greenround")
+			$(".displayplayer4").addClass("pinkround")
 		}
 	var movingside="+"
 

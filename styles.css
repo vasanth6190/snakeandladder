@@ -1,7 +1,10 @@
 body{
 	background:#161c30;
 	color:white;
+  width:100%;
+  height:100%;
 }
+
 .box{
 	margin-top:150px;
 }
@@ -159,20 +162,20 @@ width: 235px;
     left: 220px;
     top: 535px;
 }
-.displayplayer1:hover{
-   color:red;
+.displayplayer1{
+   color:red !important;
    cursor:pointer;
 }
-.displayplayer2:hover{
-   color:#007bff;
+.displayplayer2{
+   color:#007bff !important;
    cursor:pointer;
 }
-.displayplayer3:hover{
-   color:#28a745;
+.displayplayer3{
+   color:#28a745 !important;
    cursor:pointer;
 }
-.displayplayer4:hover{
-   color:#ff03bd;
+.displayplayer4{
+   color:#ff03bd !important;
    cursor:pointer;
 }
 .displayplayer4{
@@ -219,6 +222,38 @@ width: 235px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+.redround{
+  color:red !important;
+  background:white;
+  border:2px solid red;
+  border-radius:10px;
+  padding:2px;
+}
+.blueround{
+  color:#007bff !important;
+  background:white;
+  border:2px solid #007bff;
+  border-radius:10px;
+  padding:2px;
+}
+
+.greenround{
+  color:#28a745 !important;
+  background:white;
+  border:2px solid #28a745;
+  border-radius:10px;
+  padding:2px;
+}
+
+.pinkround{
+  color:#ff03bd !important;
+  background:white;
+  border:2px solid #ff03bd;
+  border-radius:10px;
+  padding:2px;
+}
+
 
 @keyframes color-change {
   0% {
