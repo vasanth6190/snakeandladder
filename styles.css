@@ -1,3 +1,61 @@
+@media all and (orientation: portrait) {
+    body {
+      margin:0;
+      padding:0;
+      height:76vh;
+      width:100%;
+        -webkit-transform: rotate(90deg); 
+        -moz-transform: rotate(90deg); 
+        -ms-transform: rotate(90deg); 
+        -o-transform: rotate(90deg); 
+        transform: rotate(90deg); 
+    }
+.snake3 {
+    width: 54px !important;
+    height: 180px !important;
+    position: absolute !important;
+    top: 35px !important;
+    left: 1050px !important;
+}
+.ladder5 {
+    width: 55px !important;
+    height: 261px !important;
+    position: absolute !important;
+    top: 110px !important;
+    left: 950px !important;
+}
+
+.ladder2 {
+    width: 45px !important;
+    height: 119px !important;
+    position: absolute !important;
+    top: 180px !important;
+    left: 825px !important;
+    transform: rotate(-60deg) !important;
+
+}
+
+.longlad {
+    width: 65px !important;
+    height: 399px !important;
+    position: absolute !important;
+    top: 40px !important;
+    left: 608px !important;
+    transform: rotate(45deg) !important;
+}
+
+.ladder3 {
+    width: 55px !important;
+    height: 81px !important;
+    position: absolute !important;
+    top: 360px !important;
+    left: 1050px !important;
+}
+
+}
+
+
+
 body{
 	background:#161c30;
 	color:white;
